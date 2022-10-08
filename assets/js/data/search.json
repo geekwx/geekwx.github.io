@@ -1,0 +1,34 @@
+[
+  
+  {
+    "title": "Finacx",
+    "url": "/posts/finacx/",
+    "categories": "Projeto, Codigo",
+    "tags": "react, frontend, backend, java, docker",
+    "date": "2022-01-04 20:32:00 -0300",
+    
+
+
+
+
+
+    "snippet": "Na minha jornada em busca de me tornar desenvolvedor, estive estudando Java, focado mais em backend, aproveitando que na empresa na qual eu trabalho, os principais sistemas dela são feitos em java, então unindo o útil ao agradável, e ampliando meu conhecimento. Resolvi me desafiar a desenvolver esse CRUD (Create, Read, Update, Delete), de um sistema financeiro, no qual você poderá cadastrar:  Usuários;  Contas;  Categorias;  Movimentos.Gerenciar a movimentação da vida financeira do usuário. Desenvolvi esse crud separando em dois ambientes, o backend feito em Java - Spring, e o frontend em reactjs, além do banco que utilizei mysql, mas foi pensado para ser aplicável em qualquer banco sql.  Importante  esse código é apenas de estudos, não possui os padrões de mercado, sendo desencorajado sua utilização de ambiente final.BackendClique aqui Para acessar o código do github.Criei uma API Rest, utilizando Java - Spring, separando em Modelos, Repositórios e controles, essa api devolve a resposta em JSON para o frontend trabalhar e para segurança dela adicionei JJWT para cuidar dos token e assim prover ao menos uma segurança básica para a utilização do sistema.FrontendClique aqui Para acessar o código do github.Esse é o lado que eu tenho mais dificuldade, desenvolvi utilizando reactjs, com material ui para me auxiliar na criação de formulários, usando axios para consumir a api sem problemas.Tela do sistemasClique nas imagens para ver em uma resolução melhor.  Esse post serve apenas como demonstração do sistema, futuramente planejo criar outros posts explicando separados como desenvolvi o backend e o frontendQuero executarClique aqui Para acessar o código do github.Cheguei até aqui, e quero ver isso rodando, como que eu faço?Bem… Em cada um dos projetos deixe um Dockfile já preparado para subir e gerar a instancia do projeto, mas para facilitar, fiz esse outro repositório que já iniciará as três instancias (Backend, frontend, banco) usando docker-compose facilitando muito todo o trabalho.Mão na Massa.  Baixe o projeto do docker no github. Clique aqui  Acesse a pasta do projeto.  Execute o comando:          sudo docker-compose up -d –build      Caso queira desligar  sudo docker-compose downEsse projeto deu um grande trabalho para completar, mas sem duvida aprendi muito com ele, então deixo aqui para servi de inspiração para mim ou outros, muito obrigado caso tenha lido até agora.Um abração e ate. 🤖"
+  },
+  
+  {
+    "title": "Apptempo",
+    "url": "/posts/apptempo/",
+    "categories": "Projeto, Codigo",
+    "tags": "react, frontend, mobile",
+    "date": "2022-01-03 20:32:00 -0300",
+    
+
+
+
+
+
+    "snippet": "Estou buscando seguir para o lado dev da força, comecei a estudar react(native e reactjs) para desenvolver interface mesmo que não fosse meu foco principal, portanto inicialmente resolvi desenvolver esse app como um teste de conhecimento básico react native, observe que o aplicativo é bem rudimentar, além do código não possuir os padrões de mercado, foi divertido desenvolvê-lo, mas não aconselho a utilização desse código em um produto final, mas deixo como uma fonte de inspiração.O objetivo desse app é ao usuário clicar no “Qual a temperatura” o aplicativo devolver a localização e a temperatura.  O app vai obter a localização apenas usando a rede do smartfone, não sendo necessário o GPS.Tela InicialTela ResultadoDesenvolvimentoO propósito desse estudo foi desenvolver um aplicativo para consumir algumas APIs Rest de maneira encadeada, obtendo assim a informação e devolvendo o resultado para o usuário. Utilizei react-native com o expo, para facilitar os testes, ganhando em tempo para a depuração e gerando deploy do aplicativo. As apis que utilizei:  Consultar o IP do usuário. -&amp;gt; httpbin  Utilizando o IP ele obterá a localização. -&amp;gt; geoplugin  Com a localização ela obterá o clima atual.Essa última api utilizei o serviço do Accuweather, no modo gratuito essa api disponibiliza um número limitado de consultas diárias, que para meus propósitos serviu muito bem.Clique Aqui para acessar a página do github com o código.Caso queira testar, primeiro você precisará de um token que pode ser obtido se cadastrando na Accuweather.Baixe o projeto:  git clone https://github.com/geekwx/apptempo-react.gitDepois na pasta raiz você precisará criar um arquivo chamado token.json possuindo uma estrutura semelhante a essa:{    &quot;key&quot;: &quot;seu token cadastrado do site Accuweather&quot;}Depois dentro da pasta raiz instalar as dependências:NPM  npm installYARN  yarnIniciar aplicaçãoNPM  npm startYARN  yarn startPela API da Accuweather eu poderia já obter a localização e o clima com o IP do usuário, mas preferi deixar dessa maneira para aumentar o número de api de serviços diferentes consumindo. Futuramente pretendo melhorar esse código, e quando sobrar um tempo quero fazer alguns post explicando a lógica de desenvolvimento que segui.Muito obrigado caso tenha lido, um abração e até. 🤖"
+  }
+  
+]
+

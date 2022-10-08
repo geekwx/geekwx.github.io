@@ -1,0 +1,98 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>localhost/</id>
+  <title>./GeekWx</title>
+  <subtitle>Blog, desenvolvimento, tecnologia, portifolio, geek.</subtitle>
+  <updated>2022-10-08T17:04:10-03:00</updated>
+  <author>
+    <name>Wesley Roberto</name>
+    <uri>localhost/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="localhost/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="pt-br"
+    href="localhost/"/>
+  <generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator>
+  <rights> © 2022 Wesley Roberto </rights>
+  <icon>/assets/img/favicons/favicon.ico</icon>
+  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>Finacx</title>
+    <link href="localhost/posts/finacx/" rel="alternate" type="text/html" title="Finacx" />
+    <published>2022-01-04T20:32:00-03:00</published>
+  
+    <updated>2022-01-04T20:32:00-03:00</updated>
+  
+    <id>localhost/posts/finacx/</id>
+    <content src="localhost/posts/finacx/" />
+    <author>
+      <name>{"name"=>"Wesley Roberto", "link"=>"https://github.com/geekwx"}</name>
+    </author>
+
+  
+    
+    <category term="Projeto" />
+    
+    <category term="Codigo" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Na minha jornada em busca de me tornar desenvolvedor, estive estudando Java, focado mais em backend, aproveitando que na empresa na qual eu trabalho, os principais sistemas dela são feitos em java, então unindo o útil ao agradável, e ampliando meu conhecimento. Resolvi me desafiar a desenvolver esse CRUD (Create, Read, Update, Delete), de um sistema financeiro, no qual você poderá cadastrar:
+
+
+...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Apptempo</title>
+    <link href="localhost/posts/apptempo/" rel="alternate" type="text/html" title="Apptempo" />
+    <published>2022-01-03T20:32:00-03:00</published>
+  
+    <updated>2022-01-03T20:32:00-03:00</updated>
+  
+    <id>localhost/posts/apptempo/</id>
+    <content src="localhost/posts/apptempo/" />
+    <author>
+      <name>{"name"=>"Wesley Roberto", "link"=>"https://github.com/geekwx"}</name>
+    </author>
+
+  
+    
+    <category term="Projeto" />
+    
+    <category term="Codigo" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Estou buscando seguir para o lado dev da força, comecei a estudar react(native e reactjs) para desenvolver interface mesmo que não fosse meu foco principal, portanto inicialmente resolvi desenvolver esse app como um teste de conhecimento básico react native, observe que o aplicativo é bem rudimentar, além do código não possuir os padrões de mercado, foi divertido desenvolvê-lo, mas não aconselh...
+    </summary>
+  
+
+  </entry>
+
+</feed>
+
+
